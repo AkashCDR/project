@@ -191,7 +191,6 @@ export default function Home() {
           {src && (
           <div>
          
-   <Button variant="outline">Crop</Button>
 
 
 
