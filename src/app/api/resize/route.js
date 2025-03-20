@@ -15,7 +15,6 @@ export async function POST(req) {
 
     const buffer = Buffer.from(await image.arrayBuffer());
 
-    // Process the image and get a buffer instead of saving it
     const resizedBuffer = await sharp(buffer)
       .resize(width, height)
       .toFormat(format)
