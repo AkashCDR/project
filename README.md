@@ -19,7 +19,7 @@ You can start editing the page by modifying app/page.tsx. The page auto-updates 
 
 This project uses next/font to automatically optimize and load Geist, a new font family for Vercel.
 
-Features
+##Features
 Image Cropping Functionality
 The image cropping functionality is one of the features of this project. It allows users to:
 
@@ -53,7 +53,7 @@ Logic for drawing shapes and applying crops.
 
 A canvas-based implementation for rendering the cropped image.
 
-Learn More
+##Learn More
 To learn more about Next.js, take a look at the following resources:
 
 Next.js Documentation - learn about Next.js features and API.
@@ -62,12 +62,12 @@ Learn Next.js - an interactive Next.js tutorial.
 
 You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
 
-Deploy on Vercel
+##Deploy on Vercel
 The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
 
 Check out our Next.js deployment documentation for more details.
 
-Notes for Developers
+##Notes for Developers
 Ensure all dependencies are installed by running npm install or yarn install.
 
 The crop functionality uses the HTML5 <canvas> element for image manipulation.
