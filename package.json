@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@imgly/background-removal": "^1.6.0",
     "@radix-ui/react-select": "^2.1.6",
     "@radix-ui/react-slot": "^1.1.2",
     "class-variance-authority": "^0.7.1",
@@ -17,6 +18,7 @@
     "lucide-react": "^0.483.0",
     "next": "15.2.3",
     "next-themes": "^0.4.6",
+    "onnxruntime-web": "^1.21.0-dev.20250206-d981b153d3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-image-crop": "^11.0.7",
