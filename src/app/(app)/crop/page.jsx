@@ -1,4 +1,4 @@
-"use client"; // Mark as a Client Component
+"use client"; 
 
 import { useState, useRef, useEffect } from 'react';
 import uploadImage from "@/assets/upload_image.png";
@@ -194,7 +194,7 @@ export default function Home() {
 
 
 
-            <div style={{ marginBottom: '10px' }}>
+            <div className='mb-[10px]'>
              
 
             <Select value={shape} onValueChange={(value) => setShape(value)}>
