@@ -13,6 +13,9 @@ const Home = () => {
       <Link href="/background-removal" className="block mb-4 text-blue-500 hover:underline">
         Background Removal
       </Link>
+      <Link href="/blur" className="block mb-4 text-blue-500 hover:underline">
+        Freehand Blur Tool
+      </Link>
     </div>
   );
 };
