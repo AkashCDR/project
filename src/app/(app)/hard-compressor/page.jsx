@@ -102,7 +102,7 @@ export default function ExactSizeImageConverter() {
   return (
     <div className="w-screen min-h-screen flex flex-col items-center bg-gray-900 text-gray-300 p-4">
       <h1 className="text-3xl font-bold text-blue-600 mb-8">Exact Size Image Converter</h1>
-      
+      <div className="w-full max-w-4xl bg-gray-800 rounded-lg text-blue-400 shadow-md p-4 mb-4"><span className='text-red-600'>Note:</span> This tool delivers precise file size compression with optimized quality for your target size. While quality adjusts automatically within the size limit, further optimization isn't possible once the ideal balance is reached.</div>
       <div className="w-full max-w-4xl bg-gray-800 rounded-lg shadow-md p-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Input Section */}
