@@ -16,6 +16,9 @@ const Home = () => {
       <Link href="/blur" className="block mb-4 text-blue-500 hover:underline">
         Freehand Blur Tool
       </Link>
+      <Link href="/hard-compressor" className="block mb-4 text-blue-500 hover:underline">
+        Hard Compressor
+      </Link>
     </div>
   );
 };
