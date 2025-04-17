@@ -19,6 +19,9 @@ const Home = () => {
       <Link href="/hard-compressor" className="block mb-4 text-blue-500 hover:underline">
         Hard Compressor
       </Link>
+      <Link href="/github-readme-profile" className="block mb-4 text-blue-500 hover:underline">
+        Profile Generator
+      </Link>
     </div>
   );
 };
