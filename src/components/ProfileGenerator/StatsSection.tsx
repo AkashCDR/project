@@ -135,10 +135,12 @@ const StatsSection = ({
             <div className="space-y-3">
               {data.showStats && (
                 <div className="overflow-hidden rounded">
-                  <img
-                    src={`https://github-readme-stats.vercel.app/api?username=${data.username}&show_icons=true&theme=${data.theme}`}
+                  <Image
+                    src={`https://github-readme-stats.vercel.app/api?username=${data.username}&show_icons=true&theme=default`}
                     alt="GitHub Stats"
                     className="w-full h-auto"
+                    width={400}
+                    height={400}
                   />
                 </div>
               )}

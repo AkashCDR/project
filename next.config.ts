@@ -42,6 +42,11 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'github-readme-streak-stats.herokuapp.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'github-readme-stats.vercel.app',
+        pathname: '/api/**',
+      },
     ],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
