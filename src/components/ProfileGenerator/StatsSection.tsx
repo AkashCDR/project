@@ -3,6 +3,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Switch } from "@/components/ui/switch";
 import SectionCard from "./SectionCard";
+import Image from "next/image";
 
 interface StatsSectionProps {
   onChange: (data: StatsSectionData) => void;
@@ -141,24 +142,29 @@ const StatsSection = ({
                   />
                 </div>
               )}
-              {data.showLanguages && (
-                <div className="overflow-hidden rounded">
-                  <img
-                    src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${data.username}&layout=compact&theme=${data.theme}`}
-                    alt="Top Languages"
-                    className="w-full h-auto"
-                  />
-                </div>
-              )}
-              {data.showStreak && (
-                <div className="overflow-hidden rounded">
-                  <img
-                    src={`https://github-readme-streak-stats.herokuapp.com/?user=${data.username}&theme=${data.theme}`}
-                    alt="GitHub Streak"
-                    className="w-full h-auto"
-                  />
-                </div>
-              )}
+            {data.showLanguages && (
+  <div className="overflow-hidden rounded">
+    <Image 
+      src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${data.username}&layout=compact&theme=default`}
+      width={400}
+      height={400}
+      alt="Top Languages"
+      className="w-full"
+    />
+  </div>
+)}
+
+{data.showStreak && (
+  <div className="overflow-hidden rounded">
+    <Image
+      src={`https://github-readme-streak-stats.herokuapp.com/?user=${data.username}&theme=default`}
+      width={400}
+      height={400}
+      alt="GitHub Streak"
+      className="w-full"
+    />
+  </div>
+)}
             </div>
           </div>
         )}
